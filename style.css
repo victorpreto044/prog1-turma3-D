@@ -5,4 +5,11 @@ body {
     width:0%;
     display: block ;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    padding: 0px 50px;
+}
+.center {
+    text-align: center;
 }
