@@ -1,17 +1,7 @@
 body {
-    background-color: black;
-    color: blue;
-    margin: 0%;
-    width:0%;
-    display: block ;
-    justify-content: center;
+    color:#295c1d;
+    background-color:#440b0b;
     font-family: Arial, Helvetica, sans-serif;
-}
-.container {
-    padding: 0px 50px;
-}
-.center {
-    text-align: center;
 }
 
 ul {
@@ -50,6 +40,11 @@ header img:hover {
     border-radius: 50%;
     border: 5px solid #440b0b;
 }
+
+.center {
+    text-align: center;
+}
+
 .align {
      text-align: left;
 }
@@ -66,6 +61,11 @@ footer img {
     width: 40px;
     height: 40px;
 }
+
+.container {
+    padding: 0px 50px;
+}
+
 nav a {
     font-size: 20px;
 }
