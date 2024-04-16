@@ -1,125 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formatura</title>
-</head>
-<body>
-    
-</body>
-</html>
-<html>
-<head>
-	<title>victorpreto044 Google Fonts</title>
-	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/victorpreto044/4.0.7/css/victorpreto044.min.css" rel="stylesheet">
-	<link href="https:https://victorpreto044.github.io/prog1-turma3-D/victorpreto044/css/select2-bootstrap.css" rel="stylesheet">
-	<link href="artigos.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/victorpreto044/4.0.7/js/victorpreto044.min.js"></script>	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
-	<script src="../src/selectGfont.js"></script>
-</head>
-<body>
-<div class="container-fluid">
-
-	<div class="row justify-content-center">
-		<!-- Fonte GOOGLE -->
-		<div class="col-md-12 col-lg-10 col-xl-8">
-			<label><span class="selectGFontTotal"></span> Google Fonts</label>
-			<div class="input-group input-group-lg">
-				<select id='selectGFont' data-default='Roboto' class="form-control invisible"></select>
-				<div class="input-group-append">
-					<select id='selectGFontVariante' data-default='regular' class="form-control invisible"></select>
-				</div>
-			</div>
-		</div>
-	</div>
+<html
+  lang="en"
+  
+  data-color-mode="light" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
 
 
-	<div class="row justify-content-center preview">
-		<div class="col-md-12 col-lg-10 col-xl-8">
-			<div style="overflow-wrap: break-word; font-size: 28px; letter-spacing: 0.5em;">
-				ABCČĆDĐEFGHIJKLMNOPQRSŠTUVWXYZŽabcčćdđefghijklmnopqrsštuvwxyzžАБВГҐДЂЕЁЄЖЗЅИІЇЙЈКЛЉМНЊОПРСТЋУЎФХЦЧЏШЩЪЫЬЭЮЯабвгґдђеёєжзѕиіїйјклљмнњопрстћуўфхцчџшщъыьэюяΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψωάΆέΈέΉίϊΐΊόΌύΰϋΎΫΏĂÂÊÔƠƯăâêôơư1234567890‘?’“!”(%)[#]{@}/&\<-+÷×=>®©$€£¥¢:;,.*
-			</div>
-			
-			<div style="font-size: 28px;">
-				<h1>The spectacle before us was indeed sublime.</h1>
-				<p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. Looking down into the dark gulf below, I could see a ruddy light streaming through a rift in the clouds.</p>
-			</div>
-			<div style="font-size: 14px;">
-				<h1>The spectacle before us was indeed sublime.</h1>
-				<p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. Looking down into the dark gulf below, I could see a ruddy light streaming through a rift in the clouds.</p>
-			</div>
-		</div>
-	</div>
 
-</div>
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://victorpreto044.github.io/prog1-turma3-D/">
+  <title>Àlbum de formatura</title>
+  <meta name="route-pattern" content="/" data-turbo-transient>
+  <meta name="route-controller" content="dashboard" data-turbo-transient>
+  <meta name="route-action" content="index" data-turbo-transient>
+  
+  <meta name="current-catalog-service-hash" content="40dc28bd654b20f337468a532ff456ed5863889cfbb4e982b793597321d48d3f">
 
 
-<!-- 
-	The possible sorting values are:
-
-	alpha: Sort the list alphabetically
-	date: Sort the list by date added (most recent font added or updated first)
-	popularity: Sort the list by popularity (most popular family first)
-	style: Sort the list by number of styles available (family with most styles first)
-	trending: Sort the list by families seeing growth in usage (family seeing the most growth first)
-	 -->
-
-	<script>
-		jQuery(document).ready(function(){
-
-			/*
-			----> key : Informe sua Credencial da API do google fonts, se não tiver, crie uma em:
-						https://console.developers.google.com/apis/credentials
-			*/
-
-			selectGfont({
-				key: 'AIzaSyDlD2NdRw4MDt-jDoTE_Hz3JqNpl154_qo', // Use You-Google-Fonts-API-Key
-				containerFonte: '#selectGFont', 
-				containerVariante: '#selectGFontVariante',
-				sort: 'popularity',
-				onSelectFonte: 'sGFselecionado',
-				onSelectVariante: 'sGFselecionado'
-
-			}).then( function() {
-			    console.log('OK');
-
-			}).catch( function(erro) {
-				console.error(erro);
-				
-			});
+  <meta name="request-id" content="E1AC:19F09:2B0323:31469C:661E52CA" data-pjax-transient="true"/><meta name="html-safe-nonce" content="a3ccfd97f43ac15d0f17bb4db09dfa4b4db6ecd310451f126698b3d8d2e576f9" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vd3d3LmVkdWNhY2FvLnByLmdvdi5ici8iLCJyZXF1ZXN0X2lkIjoiRTFBQzoxOUYwOToyQjAzMjM6MzE0NjlDOjY2MUU1MkNBIiwidmlzaXRvcl9pZCI6IjU0Njk2OTkxNjE2NDUyNzM4MDIiLCJyZWdpb25fZWRnZSI6ImJyYXppbHNvdXRoIiwicmVnaW9uX3JlbmRlciI6ImJyYXppbHNvdXRoIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="8f1e0ecab4de2c2421e1b3a4eb10143f6f6609259fe2fa3d37db11550a5f6191" data-pjax-transient="true"/>
 
 
-			// exemplo de utilização
-			sGFselecionado = function(fonte, variante, json){
-				jQuery(".preview").removeClass('sGFfonte-100 sGFfonte-200 sGFfonte-300 sGFfonte-regular sGFfonte-italic sGFfonte-500 sGFfonte-600 sGFfonte-700 sGFfonte-800 sGFfonte-900 sGFfonte-100italic sGFfonte-200italic sGFfonte-300italic sGFfonte-500italic sGFfonte-600italic sGFfonte-700italic sGFfonte-800italic sGFfonte-900italic')
- 					.css('font-family', fonte)
- 					.addClass( 'sGFfonte-'+variante );
-				
-				console.log( 'fonte', fonte );
-				console.log( 'variante', variante );
-				console.log( 'json', json );
 
-				salvaFonte(fonte, variante, json);
-			};
+    <meta name="page-subject" content="Formatura">
 
-			// Faz download da fonte com php
-			function salvaFonte (fonte, variante, json){
-				jQuery.post({
-					url: "./downloadFonte.php",
-					data: {fonteNome:fonte, fonteVariante:variante ,fonteFile:json.files[variante] }
-				});
-			};
-
-		});  
-	</script>
-
-</body>
-</html>
-</html>
+  <meta name="github-keyboard-shortcuts" content="dashboards,copilot" data-turbo-transient="true" />
+  
