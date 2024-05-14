@@ -9,7 +9,6 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">LEMBRANÇAS TERCEIRÃO</h1>
         <div class="album">
             <img src="e50ce16b-1c77-43c0-932c-297cce1bd764.jpg" alt="e50ce16b-1c77-43c0-932c-297cce1bd764.jpg">
             <h2>
@@ -22,11 +21,45 @@
                 <button class="tiktok-btn" type="submit">TIKTOK</button>
             </form>
             <center>
-            <H1>Já pensou se é possível dormir todos os dias de aula? <br>
-            a yasmin conseguiu, confira <br>
-            <button class="yasmin-btn"><a href="yasmin.html">SONINHO</a></button></H1>
-        </center>
+                <H1>Já pensou se é possível dormir todos os dias de aula? <br>
+                a yasmin conseguiu, confira <br>
+                <button class="yasmin-btn"><a href="yasmin.html">SONINHO</a></button></H1>
+            </center>
+        </div>
+        <div class="privado" style="display: none;">
+            <h2>Área Privada</h2>
+            <form id="loginForm">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <button type="button" onclick="login()">Login</button>
+            </form>
         </div>
     </div>
+<center>
+    <button class="botn.pvd" onclick="showLoginForm()">Login</button>
+</center>
+
+    <script>
+        function login() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            
+
+            if (username === "gusta" && password === "lindo") {
+                document.querySelector(".privado").style.display = "block";
+            } else {
+                alert("Credenciais inválidas. Por favor, tente novamente.");
+            }
+        }
+
+        function showLoginForm() {
+            document.querySelector(".privado").style.display = "block";
+            window.location.href = "pv.html"
+        }
+    </script>
+   
 </body>
 </html>
